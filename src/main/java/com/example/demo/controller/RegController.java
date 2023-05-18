@@ -14,8 +14,8 @@ public class RegController {
 	@GetMapping("/allEmp")
 	public List<Employee> getAllEmp() {
 
-		List<Employee> empList = Arrays.asList(new Employee(1001, "Srini", "dev"), new Employee(1002, "Srini", "dev"),
-				new Employee(1003, "Srini", "dev")
+		List<Employee> empList = Arrays.asList(new Employee(1001, "Srini", "dev"), new Employee(1002, "Nikhil", "CTO"),
+				new Employee(1005, "Navin", "CEO")
 
 		);
 		return empList;
